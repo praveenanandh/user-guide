@@ -1,0 +1,67 @@
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+.body .col-lg-12 {
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.body {
+	font-family: 'Assistant', sans-serif;
+}
+
+.body a {
+	text-decoration: none;
+	color: black;
+}
+
+.index a:hover {
+	text-decoration: none;
+	color: #1db954;
+} 
+
+.index a:focus {
+	text-decoration: none;
+	color: #1db954;
+}
+
+.index a:active {
+	text-decoration: none;
+	color: #1db954;
+}
+
+.index a:visited {
+	text-decoration: none;
+	color: #1db954;
+}
+
+.body input {
+	border-radius: 1px;
+}
+
+.body button {
+	border-radius: 500px;
+}
+
+.body .action-btn {
+	background: #1db954;
+	color: #fff ;
+	font-size: 1.2em;
+	font-weight: 601;
+	padding: 12px 48px;
+	border-color: transparent;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+
+.action-btn:hover {
+	background-color: #1ed760;
+	transform: scale(1.04);
+}
+
+footer li {
+	list-style: none;
+}

@@ -1,0 +1,115 @@
+/*********** Body Animation Start*************/
+.hero-text {
+	margin: 0px 0px 25px 0px;
+	padding: 50px 0px;	
+	text-align: center; 
+	font-size: 5em;
+	font-weight: 700;
+}
+
+.sub-text {
+	margin: -60px 0px 0px 40px;
+	padding: 10px 0px;
+	text-align: center; 
+	font-size: 2em;
+	font-weight: 700;
+} 
+
+/************ Body Animation End*************/
+
+/************* Media Query Start*************/
+
+@media screen and (max-width: 1175px) {
+	#green-grad div:nth-child(1) {
+		font-size: 3.5em;
+		padding: 50px 0px;
+	}
+}
+
+@media screen and (max-width: 1024px) {
+	#green-grad div:nth-child(1) {
+		font-size: 3.5em;
+		padding: 50px 0px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.sub-text {
+		margin: -60px 0px 0px 40px;
+		padding: 10px 0px;
+		text-align: center; 
+		font-size: 1.4em;
+		font-weight: 700;
+	} 
+}
+
+@media screen and (max-width: 889px) {
+	#green-grad div:nth-child(1) {
+		font-size: 3em;
+	}
+}
+
+@media screen and (max-width: 786px) {
+	#green-grad div:nth-child(1) {
+		font-size: 2em;
+	}
+	
+	.hero-text { 
+		font-size: 4em;
+	}
+	
+	.sub-text {
+		margin: -60px 0px 0px 0px;
+	} 
+
+
+}
+
+@media screen and (max-width: 678px) {
+	.sub-text {
+		font-size: 1.2em;
+	} 
+}
+
+@media screen and (max-width: 580px) {
+	.sub-text {
+		font-size: 1em;
+	} 
+	
+	#submit-btn {
+		position: relative;
+		right: 30px; 
+	}
+}
+
+@media screen and (max-width: 478px) {
+	.hero-text { 
+		font-size: 2.8em;
+	}
+	
+	.sub-text {
+		font-size: 0.8em;
+	} 
+	
+	#submit-btn {
+		position: relative;
+		right: 30px; 
+	}
+}
+
+@media screen and (max-width: 380px) {
+	
+	.hero-text { 
+		font-size: 2.8em;
+	}
+	
+	.sub-text {
+		font-size: 0.8em;
+	} 
+	
+	#submit-btn {
+		position: relative;
+		right: 55px; 
+	}
+}
+/************* Media Query End*************/

@@ -1,0 +1,249 @@
+.breadcrumb-group {
+	margin-left: 62px;
+}
+
+#bread-style {
+	margin-top: 14px;
+	border-radius: 3px;
+	width: 14%;
+	font-size: 18px;
+}
+
+#bread-style a {
+	font-weight: 601;
+	color: #1db954;
+}
+
+b {
+	font-weight: 701
+}
+
+#hyperlink {
+	color: #1db954;
+	font-weight: 701
+}
+
+.document-area {
+	margin: 15px;
+    padding: 0px 46px;
+}
+
+.document-area li {
+	margin-left: -26px;
+}
+
+#icon {
+	border: 1px solid black;
+	background: black;
+	color: #fff;
+	padding: 4px;
+}
+
+#fig {
+	width: 45%;
+}
+
+.pagenation a{
+	float: right;
+	margin-bottom: 20px;
+	color: #1db954;
+	font-weight: 601;
+}
+
+.os {
+	border-radius: 8px;
+	border: 2px solid #000;
+	padding: 6px;
+	margin-right: 12px;
+	font-weight: 500;
+}
+
+#os-mobile {
+	display: none;
+}
+
+	
+.dash-web {
+	text-align: justify;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    line-height: 28px;
+	margin-top: 40px;
+	margin-bottom: 220px;
+}	
+
+.dash-mobile {
+	display: none;
+	text-align: justify;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    line-height: 28px;
+	margin-top: 40px;
+}
+
+/********** Level 1 start********/
+.h-1 h1{
+	font-weight: 701;
+	font-size: 42px;
+	margin-top: 68px;
+}
+
+.b-1 {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    line-height: 28px;
+	margin-top: 40px;
+}
+
+.b-1 p {
+	margin-bottom: 24px;
+}
+
+/********** Level 1 end********/
+
+/********** Level 2 start********/
+.h-2 h2{
+	font-weight: 701;
+	font-size: 34px;
+	margin-top: 68px;	
+	/* margin-left: 48px; */
+}
+
+.b-2 {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    line-height: 28px;
+	margin-top: 40px;
+}
+
+.b-2 p {
+	margin-bottom: 24px;
+	/* margin-left: 48px; */
+}
+
+}
+/********** Level 2 end********/
+
+/********** Level 3 start********/
+.h-3 h3{
+	font-weight: 701;
+	font-size: 28px;
+	margin-top: 68px;	
+	/* margin-left: 100px; */
+}
+
+.b-3 {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    line-height: 28px;
+	margin-top: 40px;
+}
+
+.b-3 p {
+	margin-bottom: 24px;
+	/* margin-left: 100px; */
+}
+
+}
+/********** Level 3 end********/
+
+/********** Level 4 start********/
+.h-4 h4{
+	font-weight: 701;
+	font-size: 22px;
+	margin-top: 68px;	
+	/* margin-left: 156px; */
+}
+
+.b-4 {
+    text-align: justify;
+    font-size: 16px;
+    font-weight: 500;
+    color: #000;
+    line-height: 28px;
+	margin-top: 40px;
+}
+
+.b-4 p {
+	margin-bottom: 24px;
+	/* margin-left: 156px; */
+}
+
+/********** Level 4 end********/
+
+
+@media screen and (max-width: 860px)  {
+	.document-area #fig {
+		width: 60%;
+	}
+}
+
+@media screen and (max-width: 764px)  {
+	.dash-web  {
+		display: none;
+	}
+	
+	.dash-mobile {
+		display: unset;
+	}	
+	
+	.document-area #fig {
+		width: 70%;
+	}
+}
+
+@media screen and (max-width: 764px)  {
+	.dash-web  {
+		display: none;
+	}
+	
+	.dash-mobile {
+		display: unset;
+	}	
+	
+	.document-area #fig {
+		width: 70%;
+	}
+}
+
+
+@media screen and (max-width: 572px) {
+	.document-area #fig {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 471px) {
+	.document-area {
+		margin: 15px;
+		padding: 0px 34px;
+	}
+	.document-area #fig {
+		width: 100%;
+	}
+}
+
+@media screen and (max-width: 412px) {
+	.document-area {
+		margin: 15px;
+		padding: 0px 22px;
+	}
+}
+
+@media screen and (max-width: 357px) {
+	#os-mobile {
+		display: unset;
+	}
+	
+	#os-web {
+		display: none;
+	}
+}
